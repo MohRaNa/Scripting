@@ -41,4 +41,4 @@ def main():
     save_data('grocery_db.csv', updated_data)
 
 if __name__ == '__main__':
-    main
+    main()
