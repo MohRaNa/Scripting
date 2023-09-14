@@ -40,9 +40,5 @@ def main():
     # Save the final grocery data to grocery_db.csv
     save_data('grocery_db.csv', updated_data)
 
-    # Print the updated data
-    for row in updated_data:
-        print(row)
-
 if __name__ == '__main__':
     main
